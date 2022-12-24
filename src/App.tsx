@@ -1,10 +1,12 @@
-import { useState } from "react";
-import CounterContainer from "./CounterContainer";
+import TodosContainer from "./containers/TodosContainer";
+import CounterContainer from "./containers/CounterContainer";
 
 function App() {
   return (
     <div>
       <CounterContainer />
+      <hr />
+      <TodosContainer />
     </div>
   );
 }

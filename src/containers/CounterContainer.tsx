@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import Counter from "./Counter";
-import { decrease, increase, setDiff } from "./modules/counter";
+import Counter from "../components/Counter";
+import { decrease, increase, setDiff } from "../modules/counter";
 
 function CounterContainer() {
   const { number, diff } = useSelector<any, any>((state: any) => ({
