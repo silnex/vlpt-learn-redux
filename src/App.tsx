@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
+import CounterContainer from "./CounterContainer";
 
 function App() {
-
   return (
     <div>
-      hello
+      <CounterContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
